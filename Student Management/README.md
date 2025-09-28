@@ -55,3 +55,6 @@ State Based:
     state definition script in V5__FinalGrade.sql
     This is a destructive migration, as it no longer has any definition of the old column.
     This has been chosen since for state based we define the desired state of the schema, and not the steps to get there.
+-  feat/add-department-state:  
+    Created Department table and added foreign key to Instructor table
+    state definition script in V6__Department.sql
