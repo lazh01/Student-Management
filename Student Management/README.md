@@ -58,3 +58,8 @@ State Based:
 -  feat/add-department-state:  
     Created Department table and added foreign key to Instructor table
     state definition script in V6__Department.sql
+- feat/modify-course-credits-state:  
+    Changed Credits column in Course table to decimal(5,2)
+    state definition script in V7__CourseCreditsDecimal.sql
+    Previously this was int so any number greater than 999.99 would be lost  
+    Since decimal(5,2) fits most real life scenarios for course credits, it is assumed that this is a non-destructive migration
