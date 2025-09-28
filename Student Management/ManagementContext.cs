@@ -9,6 +9,7 @@ namespace Student_Management
         public DbSet<Course> Courses { get; set; }
         public DbSet<Enrollment> Enrollments { get; set; }
         public DbSet<Instructor> Instructors { get; set; }
+        public DbSet<Department> Departments { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
@@ -47,6 +48,15 @@ namespace Student_Management
                 .HasOne<Instructor>()
                 .WithMany()
                 .HasForeignKey(c => c.InstructorId);
+
+            //department primary key
+            modelBuilder.Entity<Department>()
+                .HasKey(d => d.Id);
+            //department head relationship
+            modelBuilder.Entity<Department>()
+                .HasOne<Instructor>()
+                .WithMany()
+                .HasForeignKey(d => d.DepartmentHead);
         }
     }
 }

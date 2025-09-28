@@ -20,3 +20,6 @@ Change Based:
         created migration rename_grade and made sql file V5__FinalGrade.sql
         When renaming the field the migration detected that the column was being renamed, and as such the old data would be preserved.
         Resulting in a non destructive migration
+    feat/add-department:
+        Added Department entity and defined foreign key to departmenthead/instructor
+        Created migration add-department and made sql file V6__Department.sql
