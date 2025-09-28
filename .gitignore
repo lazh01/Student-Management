@@ -4,6 +4,8 @@
 
 /.vs
 /Student Management/bin/Debug/net8.0
+/Student Management/obj
+/Student Management/bin/Debug/net8.0
 /Student Management/obj/Debug/net8.0/ref
 /Student Management/obj/Debug/net8.0/refint
 /Student Management/obj/Release/net8.0
