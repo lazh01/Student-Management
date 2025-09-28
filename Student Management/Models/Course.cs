@@ -11,5 +11,6 @@ namespace Student_Management.Models
         public required int Id { get; set; }
         public required string Title { get; set; } = "";
         public int Credits { get; set; } = 0;
+        public int InstructorId { get; set; }
     }
 }

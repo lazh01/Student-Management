@@ -11,3 +11,7 @@ Change Based:
         Added BirthDate property to Student entity
         Chose to make BirthDate nullable to accommodate students who may not want to disclose their birth date, and migration of old data
         Created migration student_date_of_birth and made sql file V3__StudentDateOfBirth.sql
+    feat/add-instructor:
+        Added Instructor entity and changed Course
+        Established one-to-many relationship between Instructor and Course entities
+        Created migration add_instructor and made sql file V4__Instructor.sql
