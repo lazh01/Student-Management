@@ -50,3 +50,8 @@ State Based:
 - feat/add-instructor-state:  
     Created Instructor table and added foreign key to Course table
     state definition script in V4__Instructor.sql
+- feat/rename-grade-state:  
+    Changed Grade column to FinalGrade in Enrollment table
+    state definition script in V5__FinalGrade.sql
+    This is a destructive migration, as it no longer has any definition of the old column.
+    This has been chosen since for state based we define the desired state of the schema, and not the steps to get there.
