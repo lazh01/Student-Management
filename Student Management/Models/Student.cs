@@ -14,5 +14,6 @@ namespace Student_Management.Models
         public required string LastName { get; set; }
         public required string Email { get; set; }
         public DateOnly EnrollmentDate { get; set; }
+        public DateOnly? DateOfBirth { get; set; }
     }
 }
