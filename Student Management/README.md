@@ -15,3 +15,8 @@ Change Based:
         Added Instructor entity and changed Course
         Established one-to-many relationship between Instructor and Course entities
         Created migration add_instructor and made sql file V4__Instructor.sql
+    feat/rename-grade:
+        Renamed Grade to FinalGrade
+        created migration rename_grade and made sql file V5__FinalGrade.sql
+        When renaming the field the migration detected that the column was being renamed, and as such the old data would be preserved.
+        Resulting in a non destructive migration

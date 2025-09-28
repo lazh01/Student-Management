@@ -11,7 +11,7 @@ namespace Student_Management.Models
         public required int Id { get; set; }
         public required int StudentId { get; set; }
         public required int CourseId { get; set; }
-        public double Grade { get; set; }
+        public double FinalGrade { get; set; }
 
     }
 }
