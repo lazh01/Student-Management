@@ -23,3 +23,10 @@ Change Based:
     feat/add-department:
         Added Department entity and defined foreign key to departmenthead/instructor
         Created migration add-department and made sql file V6__Department.sql
+    feat/modify-course-credits:
+        Modified course credits to be decimal(5,2)
+        Created migration modify-course-credits and made sql file V7__CourseCreditsDecimal.sql
+        Previously this was int so any number greater than 999,99 would be lost.
+        Since decimal(5,2) fits most real life scenarios for course credits, it is assumed that this is a non destructive migration.
+        And if it is not then it will be picked up when trying to migrate, and it can be fixed then.
+        A good addition to this schema could be a constraint that more concretely bounds the values of course credits, to make the schema more transparent and robust.
