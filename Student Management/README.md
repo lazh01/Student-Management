@@ -40,30 +40,30 @@ Change Based:
     Previously this was int so any number greater than 999.99 would be lost  
     Since decimal(5,2) fits most real life scenarios for course credits, it is assumed that this is a non-destructive migration  
     And if it is not then it will be picked up when trying to migrate, and it can be fixed then  
-    A good addition to this schema could be a constraint that more concretely bounds the values of course credits, to make the schema more transparent and robust
+    A good addition to this schema could be a constraint that more concretely bounds the values of course credits, to make the schema more transparent and robust  
 State Based:
 - feat/initial-schema-state:  
-    Implemented schema for student, course, enrollment
-    state definition script in V1__InitialCreate.sql
+    Implemented schema for student, course, enrollment  
+    state definition script in V1__InitialCreate.sql  
 - feat/student-middle-name-state:  
-    Added MiddleName column to Student table
-    state definition script in V2__StudentMiddleName.sql
+    Added MiddleName column to Student table  
+    state definition script in V2__StudentMiddleName.sql  
 - feat/student-birthdate-state:  
-    Added BirthDate column to Student table
-    state definition script in V3__StudentDateOfBirth.sql
+    Added BirthDate column to Student table  
+    state definition script in V3__StudentDateOfBirth.sql  
 - feat/add-instructor-state:  
-    Created Instructor table and added foreign key to Course table
-    state definition script in V4__Instructor.sql
+    Created Instructor table and added foreign key to Course table  
+    state definition script in V4__Instructor.sql  
 - feat/rename-grade-state:  
     Changed Grade column to FinalGrade in Enrollment table
-    state definition script in V5__FinalGrade.sql
-    This is a destructive migration, as it no longer has any definition of the old column.
+    state definition script in V5__FinalGrade.sql  
+    This is a destructive migration, as it no longer has any definition of the old column.  
     This has been chosen since for state based we define the desired state of the schema, and not the steps to get there.
 -  feat/add-department-state:  
-    Created Department table and added foreign key to Instructor table
+    Created Department table and added foreign key to Instructor table  
     state definition script in V6__Department.sql
 - feat/modify-course-credits-state:  
     Changed Credits column in Course table to decimal(5,2)
-    state definition script in V7__CourseCreditsDecimal.sql
+    State definition script in V7__CourseCreditsDecimal.sql  
     Previously this was int so any number greater than 999.99 would be lost  
     Since decimal(5,2) fits most real life scenarios for course credits, it is assumed that this is a non-destructive migration
