@@ -41,3 +41,6 @@ State Based:
 - feat/initial-schema-state:  
     Implemented schema for student, course, enrollment
     state definition script in V1__InitialCreate.sql
+- feat/student-middle-name-state:  
+    Added MiddleName column to Student table
+    state definition script in V2__StudentMiddleName.sql
