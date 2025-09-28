@@ -47,3 +47,6 @@ State Based:
 - feat/student-birthdate-state:  
     Added BirthDate column to Student table
     state definition script in V3__StudentDateOfBirth.sql
+- feat/add-instructor-state:  
+    Created Instructor table and added foreign key to Course table
+    state definition script in V4__Instructor.sql
