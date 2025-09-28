@@ -1,5 +1,9 @@
-Change Based:
+This is a project deomanstrating both Change Based and State Based database migration strategies using Entity Framework Core and sql.
+Branches are named such that branches ending in state are state based migrations, and branches not ending in state are change based migrations.
+For change based migrations, the migrations are created using the EF Core tools and the resulting sql files are stored in the change migration scripts folder.
+For state based migrations, the sql files are manually created to reflect the desired state of the database schema and are stored in the state migration scripts folder.
 
+Change Based:
 - feat/initial-schema-ef:  
     Defined data models for Entity Framework  
     Defined relationships between entities in the DbContext  
