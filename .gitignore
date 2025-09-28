@@ -3,3 +3,26 @@
 ################################################################################
 
 /.vs
+/Student Management/bin/Debug/net8.0
+/Student Management/obj/Debug/net8.0/ref
+/Student Management/obj/Debug/net8.0/refint
+/Student Management/obj/Release/net8.0
+/Student Management/obj/project.assets.json
+/Student Management/obj/project.nuget.cache
+/Student Management/obj/Student Management.csproj.EntityFrameworkCore.targets
+/Student Management/obj/Student Management.csproj.nuget.dgspec.json
+/Student Management/obj/Student Management.csproj.nuget.g.props
+/Student Management/obj/Student Management.csproj.nuget.g.targets
+/Student Management/obj/Debug/net8.0/apphost.exe
+/Student Management/obj/Debug/net8.0/Student .FCEED30C.Up2Date
+/Student Management/obj/Debug/net8.0/Student Management.AssemblyInfo.cs
+/Student Management/obj/Debug/net8.0/Student Management.AssemblyInfoInputs.cache
+/Student Management/obj/Debug/net8.0/Student Management.assets.cache
+/Student Management/obj/Debug/net8.0/Student Management.csproj.AssemblyReference.cache
+/Student Management/obj/Debug/net8.0/Student Management.csproj.CoreCompileInputs.cache
+/Student Management/obj/Debug/net8.0/Student Management.csproj.FileListAbsolute.txt
+/Student Management/obj/Debug/net8.0/Student Management.dll
+/Student Management/obj/Debug/net8.0/Student Management.GeneratedMSBuildEditorConfig.editorconfig
+/Student Management/obj/Debug/net8.0/Student Management.genruntimeconfig.cache
+/Student Management/obj/Debug/net8.0/Student Management.pdb
+/Student Management/obj/Debug/net8.0/Student Management.sourcelink.json
