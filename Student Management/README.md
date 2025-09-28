@@ -44,3 +44,6 @@ State Based:
 - feat/student-middle-name-state:  
     Added MiddleName column to Student table
     state definition script in V2__StudentMiddleName.sql
+- feat/student-birthdate-state:  
+    Added BirthDate column to Student table
+    state definition script in V3__StudentDateOfBirth.sql
