@@ -5,3 +5,5 @@
 /.vs
 /Student Management/bin/Debug/net8.0
 /Student Management/obj
+/Student Management/obj/Debug/net8.0/Student Management.AssemblyInfo.cs
+/Student Management/obj/Debug/net8.0/Student Management.AssemblyInfoInputs.cache
