@@ -37,3 +37,7 @@ Change Based:
     Since decimal(5,2) fits most real life scenarios for course credits, it is assumed that this is a non-destructive migration  
     And if it is not then it will be picked up when trying to migrate, and it can be fixed then  
     A good addition to this schema could be a constraint that more concretely bounds the values of course credits, to make the schema more transparent and robust
+State Based:
+- feat/initial-schema-state:  
+    Implemented schema for student, course, enrollment
+    state definition script in V1__InitialCreate.sql
